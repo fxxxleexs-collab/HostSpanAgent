@@ -736,7 +736,7 @@ from environment_runtime.sdk import AgentRuntimeClient
 
 * 利用 Mini Harness 来识别目前 SDK/workspace 功能中最痛的短板。
 * 通过引入 SFTP 目录级上传/下载、包含/排除规则、增量修订版以及冲突处理策略，来进一步改进工作区同步（Workspace sync）。
-* 实装 SSH `proxy_jump` 功能。
+* 实装 SSH `proxy_jump` 功能，实现远程多端点支持。
 * 将任务日志的流式传输（log streaming）提升为 Broker 中一等公民级别的 Stream 支持。
 * 在事件/终端帧序列的基础上，增加 WebSocket 的流式传输能力，以更好地支持 UI 级别的集成。
 * 改进恢复后的远程分离式任务的取消逻辑。
