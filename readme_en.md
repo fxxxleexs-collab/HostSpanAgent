@@ -11,7 +11,7 @@ HostSpan 是一个面向 Agent 的状态化执行 Runtime：它将本地与远�
 * 可重放的终端输出
 * 本地 Broker（消息代理）与 SDK 访问
 
-🚀 **快速体验**：下载mini-harness.exe，可直接使用以下命令唤起交互式 Agent[点这里直接看 Agent 实现（跳过 Runtime 部分）](#mini-harness)：
+🚀 **快速体验**：下载mini-harness.exe，可直接使用以下命令唤起交互式 Agent[（点这里直接看 Agent 实现（跳过 Runtime 部分））](#mini-harness)：
 ```bash
 # 将 <workspace-path> 替换为你的目标工作区路径，例如 "." 代表当前目录
 mini-harness.exe chat --embedded-broker --project . --verbose
